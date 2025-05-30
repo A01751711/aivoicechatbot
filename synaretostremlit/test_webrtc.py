@@ -1,0 +1,1 @@
+# test_webrtc.py vacío intencionalmente. Puedes agregar pruebas de WebRTC aquí si lo necesitas en el futuro.
