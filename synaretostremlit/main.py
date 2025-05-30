@@ -1,11 +1,11 @@
-import os
+keuimport os
 import streamlit as st
 from db import init_db, init_lead_data
 from chat import procesar_chat
 from ui import set_styles, show_title, show_chat_history, show_voice_input
 
 if not os.environ.get("GROQ_API_KEY"):
-    os.environ["GROQ_API_KEY"] = "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"
+    os.environ["GROQ_API_KEY"] = ""
 
 init_db()
 set_styles()
